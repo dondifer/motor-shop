@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+figure {
+  margin: 1rem 0;
+  padding-right: 0.5rem;
+}
+
 .header__content {
   background-color: rgb(72 49 26);
   padding: 0 2.5rem;
@@ -87,4 +92,13 @@ body {
 }
 .banner__products-stuff {
   flex: 0.8;
+}
+
+.banner__products-stuff-list {
+  display: flex;
+}
+.upligth-product-img {
+  border: 1px solid #a5a2a27a;
+  width: 190px;
+  height: 190px;
 }
