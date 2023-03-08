@@ -71,3 +71,20 @@ body {
 .selected {
   background-color: #ff7f00;
 }
+
+.banner__products {
+  display: flex;
+  padding: 1rem;
+}
+
+.product-text {
+  font-size: 1.2rem;
+  color: #ff7f00;
+}
+
+.banner__products {
+  background-color: rgba(247, 244, 244, 0.748);
+}
+.banner__products-stuff {
+  flex: 0.8;
+}
