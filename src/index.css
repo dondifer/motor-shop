@@ -30,6 +30,10 @@ body {
   filter: invert(100%);
 }
 
+.selected-border {
+  border-bottom: 0.4rem solid #ff7f00;
+}
+
 .header__content-icon-list,
 .header__content-menu-list {
   display: flex;
@@ -64,7 +68,6 @@ body {
 
 .header__content-icon-list li:hover,
 .header__content-menu-list li:hover,
-.header__content-icon-list li:active,
-.header__content-menu-list li:active {
+.selected {
   background-color: #ff7f00;
 }
