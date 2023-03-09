@@ -167,6 +167,10 @@ figcaption {
   border: none;
 }
 
+.product-tag figcaption {
+  font-weight: 600;
+}
+
 .main-content__products-list-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
