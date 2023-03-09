@@ -96,9 +96,6 @@ figcaption {
 .banner__products {
   background-color: #e6dfdf7a;
 }
-.banner__products-stuff {
-  flex: 0.8;
-}
 
 .banner__products-stuff-list {
   display: flex;
