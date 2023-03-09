@@ -128,7 +128,7 @@ figcaption {
 }
 
 .main-content__categories {
-  flex: 0.2;
+  min-width: 200px;
 }
 
 .main-content__categories-list {
@@ -155,4 +155,40 @@ figcaption {
   height: 25.5px;
   border: 1px solid #a5a2a27a;
   padding: 1px 0rem 1px 0.5rem;
+}
+
+.product-tag {
+  background-color: white;
+  padding: 0 5px;
+  border: 1px solid #a5a2a27a;
+}
+
+.product-tag img {
+  border: none;
+}
+
+.main-content__products-list-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.img-content {
+  display: flex;
+  justify-content: center;
+}
+
+.button-primary {
+  background-color: #ff7f00;
+  border: 1px solid #a5a2a27a;
+  border-radius: 4px;
+  padding: 5px 1rem;
+  color: white;
 }
