@@ -13,7 +13,8 @@ figcaption {
   padding: 1rem 0;
 }
 
-.header__content {
+.header__content,
+.footer-content {
   background-color: rgb(72 49 26);
   padding: 0 2.5rem;
 }
@@ -46,11 +47,30 @@ figcaption {
 }
 
 .header__content-icon-list,
-.header__content-menu-list {
+.header__content-menu-list,
+.footer-content__list {
   display: flex;
   list-style: none;
   padding-left: 0;
   margin: 0;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.footer-content__list li {
+  display: flex;
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.footer-content__list li {
+  align-self: center;
 }
 
 .header__content-icon-list li,
@@ -182,7 +202,6 @@ figcaption {
 
 @media all and (max-width: 992px) {
   .main-content__products-list-content {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -233,4 +252,8 @@ figcaption {
   .main-content__products-paginator-button
   span {
   padding: 0 0.5rem;
+}
+
+.footer-content__icons-icon {
+  filter: invert(100%);
 }
