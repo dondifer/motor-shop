@@ -256,4 +256,5 @@ figcaption {
 
 .footer-content__icons-icon {
   filter: invert(100%);
+  cursor: pointer;
 }
