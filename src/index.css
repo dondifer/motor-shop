@@ -17,7 +17,7 @@ figcaption {
 .footer-content {
   background-color: rgb(72 49 26);
   padding: 0 2.5rem;
-  transition: 300ms;
+  transition: 500ms;
 }
 
 .header__content-icon {
@@ -45,7 +45,7 @@ figcaption {
 
 .selected-border {
   border-bottom: 0.4rem solid #ff7f00;
-  transition: 300ms;
+  transition: 500ms;
 }
 
 .header__content-icon-list,
@@ -82,7 +82,7 @@ figcaption {
 
 .header__content-icon-list li,
 .header__content-menu-list li {
-  transition: 300ms;
+  transition: 500ms;
   align-self: center;
   color: white;
   padding: 1rem;
@@ -93,7 +93,7 @@ figcaption {
 
 .header__content-menu-list li {
   padding: 1.5rem 1rem;
-  transition: 300ms;
+  transition: 500ms;
 }
 
 .header__content-icon-list li:first-child,
@@ -110,7 +110,7 @@ figcaption {
 .header__content-menu-list li:hover,
 .selected {
   background-color: #ff7f00;
-  transition: 300ms;
+  transition: 500ms;
 }
 
 .banner__products {
@@ -126,7 +126,7 @@ figcaption {
 
 .banner__products {
   background-color: #e6dfdf7a;
-  transition: 300ms;
+  transition: 500ms;
 }
 
 .banner__products-stuff-list {
@@ -147,7 +147,7 @@ figcaption {
 .figure-brand a {
   padding: 1rem 0;
   cursor: pointer;
-  transition: 300ms;
+  transition: 500ms;
 }
 
 .brand-img {
@@ -251,7 +251,7 @@ figcaption {
   border: 1px solid #a5a2a27a;
   margin-right: 1rem;
   cursor: pointer;
-  transition: 300ms;
+  transition: 500ms;
 }
 
 .main-content__products-paginator
@@ -271,7 +271,7 @@ figcaption {
 .footer-content__icons-icon {
   filter: invert(100%);
   cursor: pointer;
-  transition: 300ms;
+  transition: 500ms;
 }
 
 .footer-content__icons-icon:hover {
