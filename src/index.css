@@ -316,6 +316,8 @@ figcaption {
   left: 20px;
 }
 
+/* DARK THEME */
+
 .--dark-theme .header__content,
 .footer-content.--dark-theme {
   background-color: rgb(36, 35, 35);
