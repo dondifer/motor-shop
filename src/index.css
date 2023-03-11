@@ -17,6 +17,7 @@ figcaption {
 .footer-content {
   background-color: rgb(72 49 26);
   padding: 0 2.5rem;
+  transition: 300ms;
 }
 
 .header__content-icon {
@@ -44,6 +45,7 @@ figcaption {
 
 .selected-border {
   border-bottom: 0.4rem solid #ff7f00;
+  transition: 300ms;
 }
 
 .header__content-icon-list,
@@ -54,6 +56,11 @@ figcaption {
   padding-left: 0;
   margin: 0;
   color: white;
+}
+
+.header__content-menu {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-content {
@@ -103,6 +110,7 @@ figcaption {
 .header__content-menu-list li:hover,
 .selected {
   background-color: #ff7f00;
+  transition: 300ms;
 }
 
 .banner__products {
@@ -113,10 +121,12 @@ figcaption {
 .product-text {
   font-size: 1.2rem;
   color: #ff7f00;
+  transition: 500ms;
 }
 
 .banner__products {
   background-color: #e6dfdf7a;
+  transition: 300ms;
 }
 
 .banner__products-stuff-list {
@@ -137,6 +147,7 @@ figcaption {
 .figure-brand a {
   padding: 1rem 0;
   cursor: pointer;
+  transition: 300ms;
 }
 
 .brand-img {
@@ -266,4 +277,100 @@ figcaption {
 .footer-content__icons-icon:hover {
   filter: invert(75%);
   cursor: pointer;
+}
+
+.input-checkbox {
+  position: relative;
+  width: 40px;
+  background: gainsboro;
+  -webkit-appearance: none;
+  height: 20px;
+  background: #efefef;
+  outline: none;
+  border-radius: 30px;
+  box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.08);
+  align-self: center;
+  transition: 0.5s;
+}
+
+.input-checkbox:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -2px;
+  background: #fff;
+  box-shadow: 0px 1px 6px 1px gainsboro;
+  border-radius: 50%;
+  top: 0px;
+  transform: scale(1.1);
+  align-self: center;
+  transition: 0.5s;
+}
+
+.input-checkbox:checked {
+  background: #5fcfc9;
+}
+
+.input-checkbox:checked:before {
+  left: 20px;
+}
+
+.--dark-theme .header__content,
+.footer-content.--dark-theme {
+  background-color: rgb(36, 35, 35);
+}
+
+.--dark-theme .header__content-icon-list li:hover,
+.--dark-theme .header__content-menu-list li:hover,
+.--dark-theme .selected {
+  background-color: #5fcfc9;
+}
+
+.--dark-theme .banner__products {
+  background-color: #222222;
+}
+
+.--dark-theme .main-content {
+  background-color: #282828;
+}
+
+.--dark-theme .selected-border {
+  border-bottom: 0.4rem solid #5fcfc9;
+}
+
+.--dark-theme .product-text {
+  font-size: 1.2rem;
+  color: #5fcfc9;
+}
+
+.--dark-theme .banner__products-stuff-list figcaption,
+.--dark-theme .figure-brand a {
+  color: white;
+}
+
+.--dark-theme .button-primary {
+  background-color: #5fcfc9;
+}
+
+.--dark-theme .main-content__categories-list li {
+  color: white;
+  background-color: #4c4a4a;
+}
+
+.--dark-theme
+  .main-content__products-paginator
+  .main-content__products-paginator-button {
+  color: white;
+  background-color: #4c4a4a;
+}
+
+.--dark-theme
+  .main-content__products-paginator
+  .main-content__products-paginator-button:hover,
+.--dark-theme
+  .main-content__products-paginator
+  .main-content__products-paginator-button:first-child {
+  background-color: #5fcfc9;
+  color: white;
 }
